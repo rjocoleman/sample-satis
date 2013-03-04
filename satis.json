@@ -3,12 +3,12 @@
   "homepage": "#",
   "description": "Sample Satis index",
   "repositories": [
-    { "type": "vcs", "url": "https://psx.googlecode.com/svn/" },
-    { "type": "vcs", "url": "https://bitbucket.org/dlu/dluphpsettings.git" },
+    { "type": "svn", "url": "https://psx.googlecode.com/svn/" },
+    { "type": "git", "url": "https://bitbucket.org/dlu/dluphpsettings.git" },
     { "type": "pear", "url": "pear-pear2.php.net/PEAR2_Text_Markdown" },
     { "type": "vcs", "url": "https://bitbucket.org/webvariants/deployer" },
     { "type": "vcs", "url": "git://gitorious.org/htmlpurifier/mainline.git" },
-    { "type": "vcs", "url": "https://classic.chamilo.googlecode.com/hg/" },
+    { "type": "hg", "url": "https://classic.chamilo.googlecode.com/hg/" },
     { "type": "package", 
       "package": {
         "name": "smarty/smarty",
