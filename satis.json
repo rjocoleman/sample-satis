@@ -7,6 +7,7 @@
     { "type": "git", "url": "https://bitbucket.org/dlu/dluphpsettings.git" },
     { "type": "vcs", "url": "https://bitbucket.org/webvariants/deployer" },
     { "type": "vcs", "url": "git://gitorious.org/htmlpurifier/mainline.git" },
+    { "type": "pear", "url": "http://pear2.php.net/" },
     { "type": "package", 
       "package": {
         "name": "smarty/smarty",
