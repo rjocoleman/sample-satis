@@ -5,7 +5,7 @@
   "repositories": [
     { "type": "svn", "url": "https://psx.googlecode.com/svn/" },
     { "type": "git", "url": "https://bitbucket.org/dlu/dluphpsettings.git" },
-    { "type": "pear", "url": "pear-pear2.php.net/PEAR2_Text_Markdown" },
+    { "type": "pear", "url": "pear2.php.net/PEAR2_Text_Markdown" },
     { "type": "vcs", "url": "https://bitbucket.org/webvariants/deployer" },
     { "type": "vcs", "url": "git://gitorious.org/htmlpurifier/mainline.git" },
     { "type": "hg", "url": "https://classic.chamilo.googlecode.com/hg/" },
