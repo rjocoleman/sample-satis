@@ -5,7 +5,6 @@
   "repositories": [
     { "type": "svn", "url": "https://psx.googlecode.com/svn/" },
     { "type": "git", "url": "https://bitbucket.org/dlu/dluphpsettings.git" },
-    { "type": "pear", "url": "pear2.php.net/PEAR2_Text_Markdown" },
     { "type": "vcs", "url": "https://bitbucket.org/webvariants/deployer" },
     { "type": "vcs", "url": "git://gitorious.org/htmlpurifier/mainline.git" },
     { "type": "hg", "url": "https://classic.chamilo.googlecode.com/hg/" },
@@ -20,7 +19,8 @@
       }
     },
     { "type": "vcs", "url": "https://github.com/magento-hackathon/magento-composer-installer.git" },
-    { "type": "vcs", "url": "https://github.com/magento-hackathon/composer-command-integrator.git" }
+    { "type": "vcs", "url": "https://github.com/magento-hackathon/composer-command-integrator.git" },
+    { "type": "pear", "url": "http://pear2.php.net" }
   ],
   "require-all": true
 }
