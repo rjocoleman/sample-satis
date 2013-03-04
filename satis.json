@@ -19,8 +19,7 @@
       }
     },
     { "type": "vcs", "url": "https://github.com/magento-hackathon/magento-composer-installer.git" },
-    { "type": "vcs", "url": "https://github.com/magento-hackathon/composer-command-integrator.git" },
-    { "type": "pear", "url": "http://pear2.php.net" }
+    { "type": "vcs", "url": "https://github.com/magento-hackathon/composer-command-integrator.git" }
   ],
   "require-all": true
 }
