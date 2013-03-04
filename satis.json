@@ -1,17 +1,26 @@
 {
-    "name": "Sample Satis Index",
-    "homepage": "#",
-    "description": "Sample Satis index",
-    "repositories": [
-        { "type": "vcs", "url": "https://psx.googlecode.com/svn/" },
-        { "type": "vcs", "url": "https://bitbucket.org/dlu/dluphpsettings.git" },
-        { "type": "pear", "url": "pear-pear2.php.net/PEAR2_Text_Markdown" },
-        { "type": "vcs", "url": "https://bitbucket.org/webvariants/deployer" },
-        { "type": "vcs", "url": "git://gitorious.org/htmlpurifier/mainline.git" },
-        { "type": "vcs", "url": "https://classic.chamilo.googlecode.com/hg/" },
-        { "type": "zip", "url": "http://www.smarty.net/files/Smarty-3.1.7.zip" },
-        { "type": "vcs", "url": "https://github.com/magento-hackathon/magento-composer-installer.git" },
-        { "type": "vcs", "url": "https://github.com/magento-hackathon/composer-command-integrator.git" }
-    ],
-    "require-all": true
+  "name": "Sample Satis Index",
+  "homepage": "#",
+  "description": "Sample Satis index",
+  "repositories": [
+    { "type": "vcs", "url": "https://psx.googlecode.com/svn/" },
+    { "type": "vcs", "url": "https://bitbucket.org/dlu/dluphpsettings.git" },
+    { "type": "pear", "url": "pear-pear2.php.net/PEAR2_Text_Markdown" },
+    { "type": "vcs", "url": "https://bitbucket.org/webvariants/deployer" },
+    { "type": "vcs", "url": "git://gitorious.org/htmlpurifier/mainline.git" },
+    { "type": "vcs", "url": "https://classic.chamilo.googlecode.com/hg/" },
+    { "type": "package", 
+      "package": {
+        "name": "smarty/smarty",
+        "version": "3.1.7",
+        "dist": {
+          "url": "http://www.smarty.net/files/Smarty-3.1.7.zip",
+          "type": "zip"
+        }
+      }
+    },
+    { "type": "vcs", "url": "https://github.com/magento-hackathon/magento-composer-installer.git" },
+    { "type": "vcs", "url": "https://github.com/magento-hackathon/composer-command-integrator.git" }
+  ],
+  "require-all": true
 }
