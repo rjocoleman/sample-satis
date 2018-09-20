@@ -1,6 +1,6 @@
 {
   "name": "Sample Satis Index",
-  "homepage": "#",
+  "homepage": "http://www.example.com",
   "description": "Sample Satis index",
   "repositories": [
     { "type": "svn", "url": "https://psx.googlecode.com/svn/" },
